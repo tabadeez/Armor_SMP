@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " N ",
+        "NON",
+        " N "
+    ],
+    "key": {
+        "N": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "O": {
+            "item": "minecraft:ominous_trial_key"
+        }
+    },
+    "result": {
+        "id": "minecraft:nether_star",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": "\"Armour Slot\"",
+            "minecraft:lore": [
+                "\"Right-click to restore a missing armor slot\"",
+                "\"Can only be used if you have missing slots\""
+            ]
+        }
+    }
+}

@@ -1,0 +1,31 @@
+QUICK DOWNLOAD GUIDE - Minecraft Armor Slot Plugin
+
+EASIEST METHOD - Copy & Paste Approach:
+
+1. INSTALL JAVA 21:
+   - Go to: https://adoptium.net/
+   - Download "Temurin 21 (LTS)" for your operating system
+   - Install it
+
+2. INSTALL MAVEN:
+   - Windows: https://maven.apache.org/download.cgi (download zip, extract to C:\Program Files\Apache\maven, add to PATH)
+   - Mac: Run "brew install maven" in terminal
+   - Linux: Run "sudo apt install maven" in terminal
+
+3. CREATE PROJECT FOLDER:
+   - Make a folder called "armor-slot-plugin" on your desktop
+   - Copy ALL the files from this conversation into the correct folder structure
+
+4. BUILD THE PLUGIN:
+   - Open terminal/command prompt
+   - Navigate to your project folder: cd Desktop/armor-slot-plugin
+   - Run: mvn clean package
+
+5. GET YOUR JAR FILE:
+   - Look in the "target" folder
+   - Copy "armor-slot-plugin-1.0.0.jar" to your Minecraft server's plugins folder
+
+6. DONE!
+   - Restart your server and the plugin will work
+
+If you get stuck at any step, tell me exactly what error you see!

@@ -1,0 +1,22 @@
+name: ArmorSlotPlugin
+version: 1.0.0
+main: com.yourname.armorslot.ArmorSlotPlugin
+api-version: 1.21
+author: YourName
+description: A lifesteal-style plugin that manages armor slots based on PvP kills and deaths
+
+commands:
+  armorslots:
+    description: Reset all players' armor slots to default
+    usage: /armorslots reset [confirm]
+    permission: armorslot.admin
+    permission-message: You don't have permission to use this command.
+  withdraw:
+    description: Withdraw armor slot items
+    usage: /withdraw <amount>
+    permission-message: You don't have permission to use this command.
+
+permissions:
+  armorslot.admin:
+    description: Allows access to admin commands
+    default: op

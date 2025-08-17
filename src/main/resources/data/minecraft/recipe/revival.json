@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#N#",
+        "NON",
+        "#N#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:nether_star",
+            "components": {
+                "minecraft:custom_name": "\"Armor Slot\"",
+                "minecraft:custom_data": {
+                    "armorslotplugin:armor_slot_item": true
+                }
+            }
+        },
+        "N": {
+            "item": "minecraft:netherite_ingot"
+        },
+        "O": {
+            "item": "minecraft:ominous_trial_key"
+        }
+    },
+    "result": {
+        "id": "minecraft:nether_star",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": "\"Revival Star\"",
+            "minecraft:lore": [
+                "\"Right-click to revive an eliminated player\"",
+                "\"Opens a menu to select who to revive\""
+            ]
+        }
+    }
+}
